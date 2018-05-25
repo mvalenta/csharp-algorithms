@@ -6,5 +6,6 @@ namespace CSharpAlgorithms.DataStructures.graph
 {
     class Graph
     {
+        
     }
 }
