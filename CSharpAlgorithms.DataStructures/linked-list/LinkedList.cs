@@ -109,9 +109,8 @@ namespace CSharpAlgorithms.DataStructures.linked_list
         /// <summary>
         /// Delete the tail node
         /// </summary>
-        /// <param name="node"></param>
         /// <returns></returns>
-        public LinkedListNode DeleteTail(LinkedListNode node)
+        public LinkedListNode DeleteTail()
         {
             var temp = Tail;
             if (Head == Tail)
@@ -142,9 +141,8 @@ namespace CSharpAlgorithms.DataStructures.linked_list
         /// <summary>
         /// Delete the head node
         /// </summary>
-        /// <param name="node"></param>
         /// <returns></returns>
-        public LinkedListNode DeleteHead(LinkedListNode node)
+        public LinkedListNode DeleteHead()
         {
             if (Head == Tail)
                 return null;
