@@ -2,10 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="algorithms\NewFolder\" />
+    <ProjectReference Include="..\CSharpAlgorithms.Algorithms\CSharpAlgorithms.Algorithms.csproj" />
+    <ProjectReference Include="..\CSharpAlgorithms.DataStructures\CSharpAlgorithms.DataStructures.csproj" />
+    <ProjectReference Include="..\CSharpAlgorithms.Utilities\CSharpAlgorithms.Utilities.csproj" />
   </ItemGroup>
 
 </Project>
